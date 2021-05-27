@@ -1,0 +1,178 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OLYVADMIN" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="text_12_lite">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_12_grey">
+        <item name="android:textColor">@color/black_70</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_12_bold">
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_14_lite">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_14_grey">
+        <item name="android:textColor">@color/black_70</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="et_style">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textColorHint">@color/black_80</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_14_bold">
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_16_lite">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textColorHint">@color/black_80</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_16_bold">
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_18_lite">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_18_bold">
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_20_lite">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+
+    <style name="text_20_bold">
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_24_lite">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="text_24_bold">
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="phone_number_style">
+        <item name="android:maxLength">11</item>
+        <item name="android:digits">1234567890+</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="bottomSheetIndicatorStyle">
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:backgroundTint">@color/white_40</item>
+    </style>
+
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="dividerStyle">
+        <item name="android:background">@color/black_60</item>
+    </style>
+
+    <style name="corner_10">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="corner_50">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textColor">@color/black_80</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+
+    <style name="switchStyle" parent="text_14_lite">
+        <item name="android:thumb">@drawable/switch_thumb_selector</item>
+        <item name="track">@drawable/switch_track_selector</item>
+    </style>
+
+    <style name="btn_style" parent="text_16_lite">
+        <item name="background">@drawable/btn_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+
+    </style>
+
+</resources>

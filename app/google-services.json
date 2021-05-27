@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "337746785448",
+    "project_id": "olyv-41e2d",
+    "storage_bucket": "olyv-41e2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337746785448:android:f328958117d047bf18be9d",
+        "android_client_info": {
+          "package_name": "com.olyv.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337746785448-17ih6cu1ck7930a4g1rutb9p0po7oacc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiBWtegwAOxVsnBS0CHj_3rVbpjHksJ-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337746785448-17ih6cu1ck7930a4g1rutb9p0po7oacc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337746785448:android:e6893ed68d9ab6e518be9d",
+        "android_client_info": {
+          "package_name": "com.olyv.olyvadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337746785448-17ih6cu1ck7930a4g1rutb9p0po7oacc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiBWtegwAOxVsnBS0CHj_3rVbpjHksJ-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337746785448-17ih6cu1ck7930a4g1rutb9p0po7oacc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
