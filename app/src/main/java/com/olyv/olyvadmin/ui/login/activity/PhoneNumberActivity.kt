@@ -59,7 +59,7 @@ class PhoneNumberVerificationActivity : BaseActivity() {
             mobileNumber = et_number.text.toString()
 
             if(et_number.text.isEmpty()){
-                et_number.error = "Enter name please"
+                et_number.error = "Enter number please"
             }else{
                 if (mobileNumber.length == 10||mobileNumber.length == 13) {
 
@@ -68,6 +68,10 @@ class PhoneNumberVerificationActivity : BaseActivity() {
                     }
                     PhoneNumber=mobileNumber
                     showLoadingDialog()
+                    if(PhoneNumber!="7895720597"){
+                        showToast("Enter admin number")
+                        return@setOnClickListener
+                    }
                     loginTask()
 
                 } else {

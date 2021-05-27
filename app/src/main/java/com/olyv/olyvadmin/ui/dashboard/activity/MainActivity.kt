@@ -53,6 +53,7 @@ class MainActivity : BaseActivity() {
                     return@addOnCompleteListener
                 }
                 val data = it.result!!.toObjects(UserDataByAdmin::class.java)
+                list.clear()
                 list.addAll(data)
                 adaptor.notifyDataSetChanged()
             }
